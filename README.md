@@ -1,4 +1,5 @@
 # CREATE
 scripts for CREATE sequencing data processing and analysis
 
-MiSeq_Data_Processing: start with script from Alaksh Choudhury (Gill lab) to take raw paired-end reads from MiSeq, split by barcode, and merge paired-end reads.
+MiSeq_DataPreprocessing.ipynb: script for taking raw paired-end reads from MiSeq, spliting by barcode, merging paired-end reads, and mapping back to designed oligo library
+Data_Analysis.ipynb: script for performing data analysis on read counts
